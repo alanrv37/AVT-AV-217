@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+Body{
+	background-color: #FBE483;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	margin:0 10%;
+}
+h2{
+	color:#557403
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	border-bottom: 1px solid #009E36;
+	margin-bottom: 50px;
+	padding-bottom: 50px; 
+}
+p{
+	color:#4D3300;
+}
+em{
+	border-bottom: 1px groove #000FDE;
+	background-color: #3FEC57;
+}
