@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Critique</title>
+</head>
+
+<body>
+	<h1>Restaurant Critiques</h1>
+	<img src="img/marumen.png" alt="restaurant 1">
+	<h2>Marumen</h2>
+	<p>This site is very effective because it is able to show their product in the background while being able to have a clear direction of content (especially concerning navigation and other relevant info).  The information besides the photo is close enough in proximity to not cause the user to roam and search around for the information.  It uses the whole layout of the desktop well and translates well into mobile. The logo and name are very responsive and work well with different screen sizes, though the background image is less so.  However, it is still getting their message across in a good manner.</p>
+	<img src="img/ironage.png" alt="restaurant 2">
+	<h2>Iron Age</h2>
+	<p>The organization of the page is superb; it makes great use of the box format considering the header and navigation, body, footer, and other parts of the structure.  The images are very high quality and portray aspects of the restaurant without having to go seraching for the content.  As well, the about me section is simply in the home page which again, saves the users from having to search what can be found at this restaurant.  The content makes great use of the space and is very responsive to changes in screen size.  The overall theme works well and I could believe that this is authentic korean cuisine.</p>
+	<img src="img/menchies.png" alt="restaurant 3">
+	<h2>Menchies</h2>
+	<p>Though not necessarily a restaurant, there are restaurant properities of this franchies which is why I put it on this list.  It is a very family friendly kind of food establishment, and it translate well with their consistent theme of smiles and family friendly colors (the green/pink coordination).  Again, this was very good at using the box structure in highlighting parts of the page whilst making good use of the space in the page.  What is really done well is that some boxes span the lenngth of the page and some don't immediately show that, since it is blank space.  It renders as effective because the written content is centered well and it can be very responsive.</p>
+	<img src="img/mikesamericangrill.png" alt="restaurant 4">
+	<h2>Mike's American Grill</h2>
+	<p>The layout of this size is good at getting their message across through their written content.  The overall theme translates well as very American and that can help to give the user an idea of what to expect on their menu (American food). There is very user friendly navigation to a lot of things, including contact information; other social media sites; and other information related to the restaurant.  There is also a nice use of custom shapes/borders to help bring together the overall theme of the site. </p>
+	<img src="img/tokyoteryaki.png" alt="restaurant 5">
+	<h2>Tokyo Grill Teryaki House</h2>
+	<p>This webist has a very small, yet effective use of content.  The layout is very simple but it shows a lot of relevant information on the main page including easy navigation and links to other social media sites.  It is effective that the site uses the same space for picutres, but it emplores the use of infinite loop of different pictures. </p>
+</body>
+</html>
