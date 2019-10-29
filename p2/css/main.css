@@ -1,0 +1,379 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+@font-face {
+    font-family: 'aileronregular';
+    src: url(../fonts/Aileron-Regular-webfont.eot);
+    src: url(../fonts/Aileron-Regular-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/Aileron-Regular-webfont.woff2) format('woff2'), url(../fonts/Aileron-Regular-webfont.woff) format('woff'), url(../fonts/Aileron-Regular-webfont.ttf) format('truetype'), url(../fonts/Aileron-Regular-webfont.svg#aileronregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronitalic';
+    src: url(../fonts/Aileron-Italic-webfont.eot);
+    src: url(../fonts/Aileron-Italic-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/Aileron-Italic-webfont.woff2) format('woff2'), url(../fonts/Aileron-Italic-webfont.woff) format('woff'), url(../fonts/Aileron-Italic-webfont.ttf) format('truetype'), url(../fonts/Aileron-Italic-webfont.svg#aileronitalic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronultralight_italic';
+    src: url('Aileron-UltraLightItalic-webfont.eot');
+    src: url('Aileron-UltraLightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('Aileron-UltraLightItalic-webfont.woff2') format('woff2'), url('Aileron-UltraLightItalic-webfont.woff') format('woff'), url('Aileron-UltraLightItalic-webfont.ttf') format('truetype'), url('Aileron-UltraLightItalic-webfont.svg#aileronultralight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url('Aileron-SemiBold-webfont.eot');
+    src: url('Aileron-SemiBold-webfont.eot?#iefix') format('embedded-opentype'), url('Aileron-SemiBold-webfont.woff2') format('woff2'), url('Aileron-SemiBold-webfont.woff') format('woff'), url('Aileron-SemiBold-webfont.ttf') format('truetype'), url('Aileron-SemiBold-webfont.svg#aileronsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronsemibold_italic';
+    src: url(../fonts/Aileron-SemiBoldItalic-webfont.eot);
+    src: url(../fonts/Aileron-SemiBoldItalic-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/Aileron-SemiBoldItalic-webfont.woff2) format('woff2'), url(../fonts/Aileron-SemiBoldItalic-webfont.woff) format('woff'), url(../fonts/Aileron-SemiBoldItalic-webfont.ttf) format('truetype'), url(../fonts/Aileron-SemiBoldItalic-webfont.svg#aileronsemibold_italic) format('svg'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronheavy';
+    src: url(../fonts/Aileron-Heavy-webfont.eot);
+    src: url(../fonts/Aileron-Heavy-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/Aileron-Heavy-webfont.woff2) format('woff2'), url(../fonts/Aileron-Heavy-webfont.woff) format('woff'), url(../fonts/Aileron-Heavy-webfont.ttf) format('truetype'), url(../fonts/Aileron-Heavy-webfont.svg#aileronheavy) format('svg'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #264C7B;
+}
+a:focus, a:hover{
+    color: #93BFEC;
+}
+a:active{
+    color: #fdf1e1;
+}
+body {
+    background-image: url(../img/mainbg3.jpg);
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-color: #264C7B;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'aileronregular';
+}
+#wrapper {
+    width: 95%;
+    margin: 0px auto;
+}
+header {
+    height: 15%;
+    width: 100%;
+    margin: 1% 0%;
+    font-family: 'aileronheavy';
+}
+#logo {
+    height: 11%;
+    width: 15%;
+    margin: 1% auto;
+}
+nav {
+    text-align: center;
+    margin: 1% 0%;
+    border-top: solid #264C7B 4px;
+    border-bottom: solid #264C7B 4px;
+    padding: 0.5%;
+}
+li {
+    display: inline;
+    width: 15%;
+    margin: 0% 3%;
+    padding: 0% 0.5%;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #264C7B;
+}
+#selected {
+    border: 4px #264C7B dotted;
+}
+.longcolumn{
+    width: 37%;
+    height: auto;
+}
+main {
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    color: #fdf1e1;
+    font-family: 'aileronregular';
+}
+#mainmenu, #mainmenu1 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+}
+#mainmenu h1, #mainmenu1 h1{    
+    font-weight: 600;
+    font-size: 3vw;
+    text-decoration-line: underline;
+    margin: 4% 0%;
+}
+#mainmenu dt, #mainmenu1 dt{
+    font-size: 2vw;
+    margin: 2% 0%;
+}
+#mainmenu dd, #mainmenu1 dd{
+    font-size: 1vw;
+}
+#sandwiches, #dogs{ 
+    float: left;
+}
+#fries{
+    width: 37%;
+    height: auto;
+}
+#burgers, #fries{
+    display: inline-block;
+    float: right;
+}
+#sandwiches img, #fries img {
+    width: 100%;
+    height: auto;
+}
+#burgers, #dogs {
+    width: 55%;
+    height: auto;
+}
+#burgers img, #dogs img {
+    width: 100%;
+    height: auto;
+}
+#sandwiches p, #fries p{
+    font-size: 1vw;
+    font-family: 'aileronitalic';
+    margin-top: 10%;
+}
+#column2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+#column2 h1{
+    font-size: 3vw;
+}
+#column2 p{
+    font-size: 2vw; 
+    font-style: italic;
+}
+#featured {
+    display: inline-block;
+    font-family: 'aileronsemibold_italic';
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5.2%;
+}
+#image1 img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+#image2 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+#image3 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -3;
+}
+#image1 img, #image2 img, #image3 img {
+    width: 100%;
+    height: auto;
+}
+#image1 h1 {
+    width: 32%;
+    height: 7%;
+    background-color: #fdf1e1;
+    color: gray;
+    opacity: 0.75;
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+/* This section should be adjusted according to actual measurements of text and background colors, however due to the lack of endless scroll and visibility of these texts, I've decided to omit the real measurements. 
+    #image2 h1{
+    width: 300px;
+    height: 90px;
+    border: pink solid 4px;
+    position: absolute;
+    color: aquamarine;
+    top: 170px;
+    left: 25px;
+    z-index: -2;
+}
+#image3 h1{
+    width: 300px;
+    height: 90px;
+    border: pink solid 4px;
+    color: aquamarine;
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    z-index: -3;
+}*/ 
+#about {
+    width: 100%;
+    height: 82%;
+    display: inline-block;
+    margin-top: 2.2%;
+}
+#aboutme {
+    width: 49%;
+    height: 100%;
+    margin-right: 1px;
+    border: #fdf1e1 4px solid;
+    float: left;
+    background-image: url(../img/bgabout.png);
+    background-size: 100% 100%;
+}
+#aboutme p{
+    line-height: 3.5vw;
+    font-size: 1.75vw;
+    padding: 4%;
+    margin: 2% 1%;
+}
+#aboutme p em{
+    font-family: 'aileronitalic';
+}
+#aboutme h1{
+    font-weight: bolder;
+    font-family: 'aileronsemibold_italic';
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 0.8%;
+}
+#biglogo img{
+    width: 22%;
+    height: auto;
+    padding: 0px;
+    margin: 1% 12%;
+}
+#advertisements {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+.events {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin: 0% 1.5%;
+}
+.events figure img{
+       width: 100%;
+       height: auto;
+}
+.events figcaption{
+    margin-top: 0.5%;
+    font-family: 'aileronitalic';
+    font-weight: 200;
+    font-size: 2vw;
+}
+footer {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    background-color: #fdf1e1;
+}
+#contactandlocation, #botnav, p{
+    display: inline-block;
+    margin: 1% 0%;
+}
+footer > p {   
+    width: 12%;
+    height: auto;
+    margin-top: 4.5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    float: left;
+    font-size: 0.85vw;
+}
+#contactandlocation{
+    width: 23%;
+    margin-left: 19%;
+    margin-right: 26%;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+}
+#botnav{
+    width: auto;
+    height: 100%;
+    margin-right: 2%;
+    float: right;
+}
