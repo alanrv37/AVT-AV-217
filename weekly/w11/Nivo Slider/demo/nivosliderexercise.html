@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Nivo Slider Exercise</title>
+    <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/img1.jpg" data-thumb="images/thumb1.png" alt="band poster" title="This is a mockup band poster for the fake person DJ Estu Kupa" />
+                <img src="images/img2.jpg" data-thumb="images/thumb2.jpg" alt="concert photo 1" title="#htmlcaption" />
+                <img src="images/img3.jpg" data-thumb="images/thumb3.jpg" alt="cocnert photo 2" title="#htmlcaption" data-transition="slideInLeft" />
+                <img src="images/img4.jpg" data-thumb="images/thumb4.jpg" alt="concert photo 3" title="#htmlcaption" />
+                <img src="images/img5.jpg" data-thumb="images/thumb5.jpg" alt="self photo" title="This is a picture of myself" data-transition="slideInLeft" />
+                <img src="images/img6.png" data-thumb="images/thumb6.png" alt="title screen" title="This is the title screen from the game project Eggman's Revenge" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an image from a concert.
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="../jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
